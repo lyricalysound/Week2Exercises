@@ -3,6 +3,72 @@ body {
 	padding: 0;
 }
 
+a {
+	height: 194px;
+	width: 259px;
+}
+
 ul {
-	
+	padding: 5px 0px;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0;
+	padding: 25px;
+}
+
+nav {
+	background-color: #000099;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+li {
+	background-color: gold;
+	margin: 0;
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+a {
+	color: black;
+	text-decoration: underline overline;
+}
+
+section {
+	background-color: gold;
+	text-align: center;
+}
+
+.box div {
+	display: inline-block;
+	width: 30%;
+}
+
+p {
+	background-color: white;
+	border: 5px;
+	padding: 10px 15px;
+	text-align: justify;
+	text-shadow: 1px 0px gold;
+}
+
+p::first-letter { 
+    font-size: 200%;
+    color: gold;
+}
+
+footer {
+	background-color: #000099;
+	padding: 5px;
+	text-align: center;
+}
+
+footer li {
+	background-color: gold;
+	display: inline-block;
+	margin: 0;
+	padding: 10px 5px;
+
 }
